@@ -1,0 +1,67 @@
+
+/* ===== FuturaPT-Bold start ======== */
+
+@font-face {
+    font-family:'FuturaPT-Bold';
+    src: url('../fonts/FuturaPT-Bold.woff');
+}
+
+@font-face {
+    font-family:'FuturaPT-Bold';
+    src: url('../fonts/FuturaPT-Bold.woff2');
+}
+
+/*  ===== FuturaPT-Bold end ======= */
+
+
+
+/* ===== FuturaPT-Book start ======== */
+
+@font-face {
+    font-family:'FuturaPT-Book';
+    src: url('../fonts/FuturaPT-Book.woff');
+}
+
+
+@font-face {
+    font-family:'FuturaPT-Book';
+    src: url('../fonts/FuturaPT-Book.woff2');
+}
+
+/* ===== FuturaPT-Book end ======== */
+
+
+
+/* ===== FuturaPT-Light start ======== */
+
+
+@font-face {
+    font-family:'FuturaPT-Light';
+    src: url('../fonts/FuturaPT-Light.woff');
+}
+
+
+@font-face {
+    font-family:'FuturaPT-Light';
+    src: url('../fonts/FuturaPT-Light.woff2');
+}
+
+
+/* ===== FuturaPT-Light end ======== */
+
+
+/* ===== FuturaPT-Medium start ======== */
+
+@font-face {
+    font-family:'FuturaPT-Medium';
+    src: url('../fonts/FuturaPT-Medium.woff');
+}
+
+
+@font-face {
+    font-family:'FuturaPT-Medium';
+    src: url('../fonts/FuturaPT-Medium.woff2');
+}
+
+
+/* ===== FuturaPT-Medium end ======== */
