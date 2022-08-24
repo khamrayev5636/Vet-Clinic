@@ -65,14 +65,14 @@
                         <a href="blog.html" class="header__link">Полезные Статьи</a>
                     </li>
                     <li>
-                        <a href="#" class="header__link">FAQ</a>
+                        <a href="faq.html" class="header__link">FAQ</a>
                     </li>
                     <li>
                         <a href="contact.html" class="header__link">Контакты</a>
                     </li>
                 </ul>
                 <div class="header__vopros">
-                    <a href="#" class="vopros__title">
+                    <a href="#" class="vopros__title js-open-modal">
                         Задать вопрос
                     </a>
                 </div>
@@ -192,7 +192,7 @@
                         <a href="blog.html" class="footer__link">Полезные Статьи</a>
                     </li>
                     <li>
-                        <a href="#" class="footer__link">FAQ</a>
+                        <a href="faq.html" class="footer__link">FAQ</a>
                     </li>
                     <li>
                         <a href="contact.html" class="footer__link">Контакты</a>
@@ -224,7 +224,51 @@
             </p>
         </div>
     </footer>
+
+    <!-- ================= Footer end ===================== -->
+
+     <!-- MODAL START  -->
     
+     <div class="modal">
+        <div class="modal-window">
+            <div class="modal__box">
+                <button class="btn-reset js-close-modal" type="button">
+                    <img class="btn-img" src="./photos/logo/x.svg" alt="x">
+                </button>
+                <div class="modal-window__apps">
+                    <p class="modal-window__decs">
+                        Авторизация:
+                    </p>
+                    <div class="modal-window__links-box">
+                        <img class="modal-logo" src="./photos/logo/google.svg" alt="facebook">
+                        <a class="modal-window__link-google " href="https://www.google.com/" target="blank" >Войти через Google</a>
+                    </div>
+                    <div class="modal-window__links-box-second">
+                        <img class="modal-logo" src="./photos/logo/facebook.svg" alt="google">
+                        <a class="modal-window__link-facebook" href="https://www.facebook.com/" target="blank">Войти через Facebook</a>
+                    </div>
+                </div>
+                <div class="modal-window__texbox">
+                    <h2 class="modal-window__title">
+                        Задать вопрос
+                    </h2>
+                    <form class="modal-window__form" action="https://echo.htmlacademy.ru/courses" method="post"> 
+                        <input class="location__users-input" type="text" name="user__name" aria-label="enter your name" placeholder="Ваше имя" minlength="2" maxlength="25" required >
+                        <textarea class="location__users-input location__users-input--question" name="user_question" minlength="3"
+                        aria-label="Enter your question"
+                        placeholder="Опишите Ваш вопрос.                                    Например: в каком возрасте можно            прививать от бешенства?"></textarea>
+                        <button class="modal-window__btn" type="submit">
+                            Отправить
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <script src="js/app.js"></script>
     
 </body>
 </html>
