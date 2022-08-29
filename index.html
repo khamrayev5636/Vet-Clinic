@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vet - Clinic</title>
     <link rel="shortcut icon" href="image/logo/logo.svg" type="image/x-icon">
-    <link rel="stylesheet" href="css/main.css">
+    <!-- <link rel="stylesheet" href="css/main.css"> -->
+    <link rel="stylesheet" href="css/min.main.css">
 </head>
 <body>
     
@@ -210,9 +211,12 @@
                     <h3 class="course__form-title">
                         Будь в курсе событий
                     </h3>
-                    <form class="form__course" action="#">
-                        <input class="input__course" type="email" placeholder="Укажите Ваш email адрес" required>
-                        <button class="button" type="submit">Подписаться</button>
+                    <form class="form__course" action="https://echo.htmlacademy.ru/course" method="get" autocomplete="off">
+                        <label class="form__label">
+                            <input class="input__course" type="email" aria-label="email" placeholder="Укажите Ваш email адрес" required>
+                            <span class="course__span">Error</span>
+                            <button class="button" type="submit">Подписаться</button>
+                        </label>
                     </form>
                 </div>
                 <div class="course__dog-img">
